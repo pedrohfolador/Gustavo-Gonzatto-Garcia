@@ -13,7 +13,7 @@ class RequestController
 			    $protocol,
 				$method,
 				$uri_array[2],
-				$this->getParams($uri_array[1]), 
+				$this->getParams($uri_array[3]), 
 				$server_addr);
 		
 	}	
