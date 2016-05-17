@@ -2,7 +2,7 @@
 include_once "model/Request.php";
 include_once "model/Evaluation.php";
 include_once "database/DatabaseConnector.php";
-class UserController
+class EvaluationController
 {
 	public function register($request)
 	{

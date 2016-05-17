@@ -2,7 +2,7 @@
 include_once "model/Request.php";
 include_once "model/Client.php";
 include_once "database/DatabaseConnector.php";
-class BudgetController
+class ClientController
 {
 	public function register($request)
 	{
@@ -11,7 +11,7 @@ class BudgetController
 				 $params["lastname"],
 				 $params["cpf"],
 				 $params["rg"],
-				 $params["data"]),
+				 $params["data"],
 				 $params["salary"]);
 		$db = new DatabaseConnector("localhost", "receita", "mysql", "", "root", "");
 	

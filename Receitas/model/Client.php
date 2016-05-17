@@ -1,9 +1,9 @@
 <?php
-	class User
+	class Client
 	{
 		private $name;
 		private $lastname;
-		private $cpf
+		private $cpf;
 		private $rg;
 		private $data;
 		private $salary;
