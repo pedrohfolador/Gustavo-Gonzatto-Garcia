@@ -1,0 +1,168 @@
+1.	Entidade :  User
+
+Metodo: Get
+Link: http://localhost/Receitas/user
+Status: Undefined 
+Obs: br />
+<b>Notice</b>: Undefined offset: 3 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>16</b><br />
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Fatal error</b>: Call to a member function fetchAll() on boolean in <b>C:\xampp\htdocs\Receitas\control\UserController.php</b> on line <b>43</b><br />
+
+Metodo: Post
+Link: http://localhost/Receitas/User/name=Pedro&last_name=Henrique&email= pedrohfolador@gmail.com&birthdate=1985-20-10&phone=9999999&password=12312321
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined index: User in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>21</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>21</b><br />
+
+Metodo: PUT
+Link: http://localhost/Receitas/User/name=Pedro&last_name=Henrique&email= pedrohfolador@gmail.com&birthdate=1985-20-10&phone=9999999&password=12312321
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined index: User in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>31</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>31</b><br />
+
+Metodo:  DELETE
+Link: http://localhost/Receitas/User/name=Pedro&last_name=Henrique&email= pedrohfolador@gmail.com&birthdate=1985-20-10&phone=9999999&password=12312321
+Status: 200 OK 
+Obs: <br />
+<b>Notice</b>: Undefined index: User in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>36</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>36</b><br />
+2.	Entidade: Recipe
+
+Metodo: GET
+Link: http://localhost/Receitas/Recipe/
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined offset: 1 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined index: Recipe in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>26</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>26</b><br />
+
+Metodo: POST
+Link: http://localhost/Receitas/Recipe?nameRecipe=teste&nameChef=Pedro&data=2000-10-10&category=1
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined offset: 3 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>16</b><br />
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined index: Recipe?nameRecipe=teste&nameChef=Pedro&data=2000-10-10&category=1 in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>21</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>21</b><br />
+
+Metodo: PUT
+Link: http://localhost/Receitas/Recipe/nameRecipe=teste&nameChef=Pedro&data=2000-10-10&category=1
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined index: Recipe in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>31</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>31</b><br />
+
+Metodo: DELETE
+Link: http://localhost/Receitas/Recipe/nameRecipe=teste&nameChef=Pedro&data=2000-10-10&category=1
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined index: Recipe in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>36</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>36</b><br />
+
+3.	Entidade: Evaluate
+
+Metodo: GET
+Link: http://localhost/Receitas/Evaluation?nameDesgustador=Pedro&nameRecipe=Teste
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined offset: 3 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>16</b><br />
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined index: Evaluation?nameDesgustador=Pedro&nameRecipe=Teste in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>26</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>26</b><br />
+
+Metodo: POST
+Link: http://localhost/Receitas/Evaluation/nameDesgustador=Pedro&nameRecipe=Teste
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined index: Evaluation in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>21</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>21</b><br />
+
+Metodo: PUT
+Link: http://localhost/Receitas/Evaluation/nameDesgustador=Pedro&nameRecipe=Teste
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined index: Evaluation in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>31</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>31</b><br />
+
+
+
+
+Metodo: DELETE
+Link: http://localhost/Receitas/Evaluation?nameDesgustador=Pedro&nameRecipe=Teste
+Status: 200 OK
+Obs: 
+<br />
+<b>Notice</b>: Undefined offset: 3 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>16</b><br />
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined index: Evaluation?nameDesgustador=Pedro&nameRecipe=Teste in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>36</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>36</b><br />
+
+4.	Entidade: Client
+
+Metodo: GET
+Link: http://localhost/Receitas/Client/
+Status: 200 OK
+Obs:
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined index: Client in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>26</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>26</b><br />
+
+Metodo: POST
+Link: http://localhost/Receitas/Client?name=Teste&lastname=ShiT&cpf=21313213213213
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined offset: 3 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>16</b><br />
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined index: Client?name=Teste&lastname=ShiT&cpf=21313213213213 in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>21</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>21</b><br />
+
+Metodo: PUT
+Link: http://localhost/Receitas/Client?name=Teste&lastname=ShiT&cpf=21313213213213
+Status: 200 OK
+Obs: 
+<br />
+<b>Notice</b>: Undefined offset: 3 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>16</b><br />
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined index: Client?name=Teste&lastname=ShiT&cpf=21313213213213 in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>31</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>31</b><br />
+
+Metodo: DELETE
+Link: http://localhost/Receitas/Client/
+Status: 200 OK
+Obs: <br />
+<b>Notice</b>: Undefined offset: 1 in <b>C:\xampp\htdocs\Receitas\control\RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined index: Client in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>36</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>C:\xampp\htdocs\Receitas\control\ResourceController.php</b> on line <b>36</b><br />
